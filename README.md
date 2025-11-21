@@ -29,7 +29,12 @@ Scroll adds a floating navigation panel to AI chat interfaces. Jump to any promp
 ### From Chrome Web Store (Coming Soon)
 [Link will be added once published]
 
+### From Firefox Add-ons (Coming Soon)
+[Link will be added once published]
+
 ### From Source
+
+#### Chrome/Chromium/Edge/Brave
 
 1. Clone this repository:
 ```bash
@@ -46,6 +51,26 @@ cd scroll
 5. Navigate to [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai), or [Gemini](https://gemini.google.com)
 
 6. Look for the Scroll button on the right side of your screen!
+
+#### Firefox
+
+1. Clone this repository:
+```bash
+git clone https://github.com/asker-kurtelli/scroll.git
+cd scroll
+```
+
+2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
+
+3. Click **Load Temporary Add-on**
+
+4. Navigate to the `scroll` folder and select the `manifest.json` file
+
+5. Navigate to [ChatGPT](https://chatgpt.com), [Claude](https://claude.ai), or [Gemini](https://gemini.google.com)
+
+6. Look for the Scroll button on the right side of your screen!
+
+**Note:** Temporary add-ons in Firefox are removed when you close the browser. For permanent installation, you can either install from Firefox Add-ons (when published) or sign the extension yourself.
 
 ## Usage
 
@@ -92,10 +117,10 @@ Scroll runs **entirely in your browser**. No data is collected, stored, or trans
 - [x] Keyboard shortcuts
 - [x] Search and filter
 - [x] Heading navigation
+- [x] Firefox support
 - [ ] Pin favorite responses
 - [ ] Export conversations
 - [ ] Custom themes
-- [ ] Firefox support
 - [ ] Markdown export
 - [ ] Conversation bookmarks
 
@@ -140,9 +165,9 @@ I believe AI tools should work better for serious work. Open sourcing Scroll mea
 ## Browser Support
 
 - ✅ Chrome/Chromium (tested)
+- ✅ Firefox (supported)
 - ⏳ Edge (needs testing)
 - ⏳ Brave (needs testing)
-- ⏳ Firefox (coming soon)
 - ⏳ Safari (investigating)
 
 ## License
